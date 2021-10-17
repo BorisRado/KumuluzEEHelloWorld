@@ -1,0 +1,11 @@
+kumuluzee:
+  name: jdbc-sample
+  version: 1.0.0
+  env:
+    name: dev
+  datasources:
+    - jndi-name: jdbc/GroceryListsDS
+      connection-url: jdbc:postgresql://172.17.0.2:5432/groceries
+      username: postgres
+      password: postgres
+      max-pool-size: 20
