@@ -18,3 +18,8 @@ The service requires a database, Postgres, to be accessible. Set the address, wh
 
 
 The api specification is available on `<BASE_URL>/openapi`.
+
+
+Functionalities:
+* a set of items, that can be accessed and modified through the `/items` endpoint, is available;
+* a set of users (`/users`) can manage their grocely lists (`/users/{user_id}/lists/{list_id}`). Users can create/delete lists and can add and remove items from a specific grocery list.
